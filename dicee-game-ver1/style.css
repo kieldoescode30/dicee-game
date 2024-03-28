@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FBF3D5;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #EFBC9B;
+  text-align: center;
+}
+
+h1 {
+  filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
+}
+
+.dices {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  width: 930px;
+  margin: auto;
+}
+
+.dice-container {
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #EFBC9B;
+}
+
+.dot {
+  width: 50px;
+  height: 50px;
+  background-color: #F9F5F6;
+  border-radius: 50%;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.center-dot {
+  justify-self: center;
+  align-self: center;
+}
+
+.p1-header,
+.p2-header {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 32px;
+  color: #99BC85;
+}
+
+.btn-container {
+  display: flex;  
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.btn-container button {
+  border: 2px solid #99BC85;
+  background-color: transparent;
+  color: #99BC85;
+  padding: 10px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s;
+} 
+
+.btn-container button:hover {
+  background-color: #99BC85;
+  color: #f2f2f2f2;
+}
